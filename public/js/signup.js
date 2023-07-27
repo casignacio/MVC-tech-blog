@@ -16,7 +16,7 @@ const chessSignupFormHandler = async (event) => {
       if (response.ok) {
         document.location.replace('/'); // When successful, load the homepage
       } else {
-        alert('Failed to sign up.'); // When unsuccessful, show alert
+        alert('Failed to sign up.'); // When unsuccessful, alert
       }
     }
   };
