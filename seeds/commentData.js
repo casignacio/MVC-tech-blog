@@ -1,5 +1,6 @@
 const { Comment } = require("../models");
 
+// dummy comment data
 const commentData = [
   {
     comment_text: "Great article!",
